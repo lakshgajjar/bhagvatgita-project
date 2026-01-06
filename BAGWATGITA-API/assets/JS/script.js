@@ -15,7 +15,7 @@ fetch('https://vedicscriptures.github.io/chapters')
                             <h6 class="card-subtitle mb-2 text--body-secondary"> ${ch.translation}</h6>
 
                             <p class="card-text">${ch.summary.en.substring(0,120)}....</p>
-                            <a href="#" class="card-link btn btn-danger text-decoration-none"> Read Chapters</a>
+                            <a href="./solo-chapter.html" class="card-link btn btn-danger text-decoration-none"> Read Chapters</a>
                     </div>     
                 </div>
             </div>
@@ -23,4 +23,5 @@ fetch('https://vedicscriptures.github.io/chapters')
         });
         document.getElementById("chapters").innerHTML = output;
 }); 
+
 
